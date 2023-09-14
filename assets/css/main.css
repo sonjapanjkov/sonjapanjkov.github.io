@@ -3076,7 +3076,7 @@ input, select, textarea {
 		text-align: center;
 		background: url(/images/Vela-DSS-New-SS1024.jpeg);
 		background-position: center;
-		background-size: cover;
+		background-size: 100%;
 	}
 
 		#header h1 {
@@ -3785,7 +3785,23 @@ input, select, textarea {
 		@media screen and (max-width: 360px) {
 
 			#wrapper {
-				max-width: 0%;
+				max-width: 100%;
 			}
 
 		}
+
+/* Centered text */
+.centered {
+	position: absolute;
+	top: 25%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+  }
+
+  /* off Centered text */
+.offcentered {
+	position: absolute;
+	top: 34%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+  }
