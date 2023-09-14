@@ -3074,9 +3074,6 @@ input, select, textarea {
 	#header {
 		padding: 5em 5em 1em 5em ;
 		text-align: center;
-		background: url(/images/Vela-DSS-New-SS1024.jpeg);
-		background-position: center;
-		background-size: 100%;
 	}
 
 		#header h1 {
@@ -3696,9 +3693,6 @@ input, select, textarea {
 		padding: 5em 5em 3em 5em ;
 		width: calc(100% + 2em);
 		margin: 0 0 3em -2em;
-		background: url(/images/Vela-DSS-New-SS1024.jpeg);
-		background-position: center;
-		background-size: cover;
 	}
 
 		#footer > * {
